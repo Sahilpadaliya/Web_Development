@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex form</h2>
+    <form >
+
+        <fieldset>
+          <legend>Personal Information</legend>
+
+     <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+ 
+    <label for="Phone">Email:</label>
+    <input type="Phone" id="Phone" name="Phone">
+
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" name="date">
+
+    <label>Gender:</label>
+    <label for="gender" name="gender">Male</label>
+    <input type="radio" id="gender" name="gender">
+
+    <label for="gender" name="gender">Female</label>
+    <input type="radio" id="gender" name="gender">
+
+    <label for="country">Country:</label>
+    <select name="country" id="Country">
+        <option value="" selected disabled>Select Country</option>
+        <option value="USA"></option>
+        <option value="UDP">UDP</option>
+        <option value="PAK">PAK</option>
+        <option value="India">India</option>
+    </select>
+       
+        </fieldset>
+
+        <fieldset>
+          <legend>Address </legend>
+      
+
+               <label for="street">Street:</label>
+          <input type="text" id="street">
+
+               <label for="City">City:</label>
+          <input type="text" id="City">
+
+               <label for="State">State:</label>
+          <input type="text" id="State">
+
+               <label for="Zip">Zip Code:</label>
+          <input type="text" id="Zip">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information </legend>
+            <label for="textarea">Comments:</label>
+            <textarea name="text" id="textarea" cols="20" rows="10"></textarea>
+            <label for="check"> i agree to the terms of the sevice </label>
+            <input type="checkbox" id="check" name="select">
+
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" name="Submit">
+    </form>
+</body>
+</html>
