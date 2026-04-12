@@ -40,3 +40,4 @@ console.log(save);
 const student = ['sahil', 'ritesh', 'Anmol']
 student.reverse() 
 console.log(student)
+console.log('jai jai')
